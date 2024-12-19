@@ -23,7 +23,7 @@ The datasets used in this project contain synthetic customer banking data, which
 
 You can download the datasets from the following links:
 
-- [Initial Dataset](./Datasets/initial_dataset.xlsx)
+- [Initial Dataset]((https://github.com/abdullahel11/BankDemographics/blob/main/Initial.csv))
 - [Final Dataset](./Datasets/final_dataset.xlsx)
 
 
