@@ -136,7 +136,11 @@ This query produced the following results:
 - Total amount of funds in balance and investment accounts for each income group
 - Contribution of each income group to the total balance and investments 
 
-### Tableau Visualisation for Customer Demographics.
+## Tableau Visualisation for Customer Demographics.![Image 22-12-2024 at 15 36](https://github.com/user-attachments/assets/e2fbd4d7-824b-48e6-8757-90398761a7a0)
+
+#### Business Questions Answered from this Analysis:
+
+
 
 
 
