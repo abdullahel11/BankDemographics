@@ -321,6 +321,17 @@ While low-risk customers represent a large segment of the customer base, their a
 Observing the activity of high-net-worth individuals (HNWIs) is crucial as they contribute significantly to a bank's revenue while representing a small customer base. Monitoring their deposit and withdrawal trends helps manage liquidity, detect risks, and identify cross-selling opportunities. Insights into their financial behavior enable the bank to offer tailored services, ensuring retention and enhancing customer satisfaction. This strategic focus strengthens the bank's relationship with these valuable clients
 
 
+### Conclusion
+
+This project demonstrated how SQL and Tableau can be combined to extract, analyze, and visualize key insights from a financial dataset. Through segmentation, performance analysis, and behavioral patterns, actionable insights were uncovered to support decision-making in areas such as loan approvals, customer risk tolerance, and high-net-worth account activity
+
+###   Resources
+
+**Interactive Tableau Dashboard** - https://public.tableau.com/views/Bank_17339341988090/LoanPerformance?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
+**Full SQL code** - 
+
+
 
 
 
