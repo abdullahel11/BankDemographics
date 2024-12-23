@@ -296,6 +296,31 @@ The queries for this section produced the following results:
 ## Tableau Visualisation for Risk Tolerance and Financial Behaviour.
 ![Image 23-12-2024 at 16 26](https://github.com/user-attachments/assets/8078dff2-1c50-41d4-bafe-f161be6781ff)
 
+#### Business Questions Answered from this Analysis:
+
+**6. How does the average investment vary across different risk tolerance groups (e.g., low, medium, high)?**
+
+The results aligned with expectations:
+
+**- Customers with high risk tolerance had the highest average investment at $2,571.**
+
+**- Customers with medium risk tolerance followed with an average investment of $1,676.**
+
+**- Customers with low risk tolerance had the lowest average investment at $1,416.**
+
+This trend highlights a clear relationship between risk tolerance and investment behavior, with higher risk tolerance correlating to larger investment amounts.
+
+## Additional Insights:
+
+**- Potential Growth Opportunity for Low-Risk Customers:** 
+
+While low-risk customers represent a large segment of the customer base, their average investment is significantly lower. Encouraging this group to diversify their portfolios with safer investment options could unlock new revenue streams for the bank.
+
+**- Importance of Monitoring High-Networth Customer Activity**
+
+Observing the activity of high-net-worth individuals (HNWIs) is crucial as they contribute significantly to a bank's revenue while representing a small customer base. Monitoring their deposit and withdrawal trends helps manage liquidity, detect risks, and identify cross-selling opportunities. Insights into their financial behavior enable the bank to offer tailored services, ensuring retention and enhancing customer satisfaction. This strategic focus strengthens the bank's relationship with these valuable clients
+
+
 
 
 
