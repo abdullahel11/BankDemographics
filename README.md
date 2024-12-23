@@ -225,6 +225,20 @@ This question was answered and visualized using two bar charts that display the 
 
 **Rejected Applications** had an average Loan Amount of **$11,286** and an average interest rate of **9.1%**
 
+**5. To what extent does unemployment affect the chances of loan approval?**
+
+This question was answered and visualised using a bar chart that shows the proportion of unemployed customers for each loan outcome (approved, rejected, and pending).
+
+The analysis revealed the following insights:
+
+- 25% of the customers whose loan applications were approved were unemployed.
+- 22.2% of customers with pending loan applications were unemployed.
+- 29% of customers with rejected loan applications were unemployed.
+
+From these findings, it is evident that unemployment has a slight influence on loan approval, as a higher percentage of unemployed individuals have had their loan applications rejected. The rate of unemployment among approved applicants is relatively lower, while pending applications have a slightly lower unemployment rate compared to rejected ones.
+
+
+
 
 
 
