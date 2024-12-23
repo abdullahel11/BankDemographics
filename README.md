@@ -257,6 +257,43 @@ GROUP BY Customer_Demographics.risk_tolerance
 ORDER BY avg_investments DESC;
 ```
 
+**Account Activity for all individual Customers**
+
+```sql
+SELECT 
+    Account_Activity.cust_id,
+    ROUND(account_balance, 2) AS account_balance,
+    ROUND(account_deposits, 2) AS account_deposits,
+    ROUND(account_withdrawals, 2) AS account_withdrawals,
+    ROUND(account_deposits - account_withdrawals, 2) AS net_flow,
+    Customer_Demographics.risk_tolerance
+FROM Account_Activity
+JOIN Customer_Demographics ON Account_Activity.cust_id = Customer_Demographics.cust_id
+ORDER BY account_balance;
+```
+
+**Insights into financial behaviour for High Net-worth Customers**
+```sql
+SELECT -- Account Activity Analysis for High Income earners (3)
+    cust_id,
+    ROUND(account_balance, 2) AS account_balance,
+    ROUND(account_deposits, 2) AS account_deposits,
+    ROUND(account_withdrawals, 2) AS account_withdrawals,
+    ROUND(account_deposits - account_withdrawals, 2) AS net_flow
+FROM Account_Activity
+WHERE account_balance >= 70000
+ORDER BY net_flow DESC;
+```
+**Results and Insights:**
+
+The queries for this section produced the following results:
+
+- **Count of Customers:** The number of customers categorized into each risk tolerance group (e.g., Low, Medium, High Risk).
+- **Average Investment Amount:** The average amount invested by customers in each risk tolerance group.
+- **Account Activity for High Net Worth Customers:** A breakdown of financial activity (e.g., deposits, withdrawals, transfers) specific to high-net-worth individuals.
+- **Individual Account Activity:** The ability to explore account activity at the individual customer level through an interactive visual.
+
+
 
 
 
