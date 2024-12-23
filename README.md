@@ -293,6 +293,10 @@ The queries for this section produced the following results:
 - **Account Activity for High Net Worth Customers:** A breakdown of financial activity (e.g., deposits, withdrawals, transfers) specific to high-net-worth individuals.
 - **Individual Account Activity:** The ability to explore account activity at the individual customer level through an interactive visual.
 
+## Tableau Visualisation for Risk Tolerance and Financial Behaviour.
+![Image 23-12-2024 at 16 26](https://github.com/user-attachments/assets/8078dff2-1c50-41d4-bafe-f161be6781ff)
+
+
 
 
 
