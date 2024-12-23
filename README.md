@@ -153,14 +153,56 @@ The bar chart highlights the average account balances and investment amounts for
 - **High Income earners** have the highest average account balance and investment amounts compared to the other groups.
 - Middle and Low Income groups contribute significantly less on average.
 
-#### Additional Insights:
+## Additional Insights:
 
-**-High Income Group Impact:** Despite representing only 2.3% of the total customers, high-income earners contribute a significant 13.77% to the cumulative account balances across all customers. This means that their financial contribution is approximately 6x their population proportion, highlighting their outsized impact on total account balances.
+**- High Income Group Impact:** Despite representing only **2.3%** of the total customers, high-income earners contribute a significant **13.77%** to the cumulative account balances across all customers. This means that their financial contribution is approximately **6x** their population proportion, highlighting their outsized impact on total account balances.
+
 ![Image 23-12-2024 at 11 03](https://github.com/user-attachments/assets/57694236-c3cf-418e-9c75-3baed2aa5ad2)
 
 
-**-Low Income Group Contribution:** Conversely, low-income earners account for 86.4% of the total customers but contribute only 46.4% to the cumulative account balances. This shows that their financial contribution is approximately 0.54x their population proportion, reflecting the relatively lower financial capacity of this group compared to their size.
+**- Low Income Group Contribution:** Conversely, low-income earners account for **86.4%** of the total customers but contribute only **46.4%** to the cumulative account balances. This shows that their financial contribution is approximately **0.54x** their population proportion, reflecting the relatively lower financial capacity of this group compared to their size.
+
 ![Image 23-12-2024 at 11 04](https://github.com/user-attachments/assets/444f701f-9fac-4fde-b5a8-d9b0950fc3f4)
+
+
+#### Loan Performance
+This section focuses on analysing loan performance, including the outcomes of loan applications , the average loan amount, and interest rates for each loan status. Additionally, the analysis breaks down loan approval and rejection rates by region, providing insights into regional disparities and if unemployment influence loan application decisions.
+
+**SQL Query's  performed**:
+
+```sql
+SELECT 
+    loan_status,
+    COUNT(*) AS total_loans,
+    COUNT(CASE WHEN employment_status = 'Unemployed' THEN 1 END) AS unemployed_count,
+    ROUND(AVG(loan_amount), 2) AS avg_loan_amount,
+    ROUND(AVG(interest_rate), 3) AS avg_interest_rate
+FROM Loan_Details
+JOIN Customer_Demographics ON Loan_Details.cust_id = Customer_Demographics.cust_id
+GROUP BY loan_status
+ORDER BY total_loans DESC;
+```
+**For regional analysis**
+```sql
+SELECT -- Rejection/Approval Rates per region (4)
+    region,
+    COUNT(CASE WHEN loan_status = 'rejected' THEN 1 END) AS rejected_count,
+    ROUND((COUNT(CASE WHEN loan_status = 'rejected' THEN 1 END) * 100.0 / COUNT(Customer_Demographics.cust_id)), 2) AS rejected_rate,
+    COUNT(CASE WHEN loan_status = 'approved' THEN 1 END) AS approved_count,
+    ROUND((COUNT(CASE WHEN loan_status = 'approved' THEN 1 END) * 100.0 / COUNT(Customer_Demographics.cust_id)), 2) AS approved_rate,
+    COUNT(Customer_Demographics.cust_id) AS total_customers
+FROM Customer_Demographics
+JOIN Loan_Details ON Customer_Demographics.cust_id = Loan_Details.cust_id
+GROUP BY region
+ORDER BY rejected_rate DESC;
+```
+**Results and Insights:**
+
+
+
+
+
+
 
 
 
