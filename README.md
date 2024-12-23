@@ -237,6 +237,34 @@ The analysis revealed the following insights:
 
 From these findings, it is evident that unemployment has a slight influence on loan approval, as a higher percentage of unemployed individuals have had their loan applications rejected. The rate of unemployment among approved applicants is relatively lower, while pending applications have a slightly lower unemployment rate compared to rejected ones.
 
+## Additional Insights:
+Despite the highest unemployment rate among rejected applicants (29%), the fact that over 70% of rejected applicants were employed indicates that unemployment alone is not a decisive factor in the rejection of loan applications.
+
+#### Risk Tolerance and Finanical Behaviour 
+
+This section delves into customers’ financial behaviours, focusing on their risk tolerance levels and how this influences their investment activities. Customers were segmented into different risk tolerance groups Low, Medium, and High Risk, allowing for a detailed analysis of how their risk preferences relate to their investment behaviours.Additionally,for high-net-worth individuals, account activity is further analysed to reveal trends in their financial behaviour. Lastly, a financial activity section provides a closer look at individual customer activity through bar charts.
+
+**SQL Query's  performed**:
+
+```sql
+SELECT -- Average Investment per risk category (5)
+    Customer_Demographics.risk_tolerance,
+    ROUND(AVG(Account_Activity.account_investments),2) AS avg_investments,
+    COUNT(Customer_Demographics.cust_id) AS total_customers
+FROM Customer_Demographics
+JOIN Account_Activity ON Customer_Demographics.cust_id = Account_Activity.cust_id
+GROUP BY Customer_Demographics.risk_tolerance
+ORDER BY avg_investments DESC;
+```
+
+
+
+
+
+
+
+
+
 
 
 
