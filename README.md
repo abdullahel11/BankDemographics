@@ -327,7 +327,7 @@ This project demonstrated how SQL and Tableau can be combined to extract, analyz
 
 ###   Resources
 
-**Interactive Tableau Dashboard** - https://public.tableau.com/views/Bank_17339341988090/LoanPerformance?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+**Interactive Tableau Dashboard** - (https://public.tableau.com/views/Bank_17339341988090/CustomerDemo?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 **Full SQL code** - 
 
