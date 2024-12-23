@@ -215,6 +215,19 @@ These query's  produced the following results:
 
 This question was answered and visualized using a bar chart that shows the rejection and approval rates for loan applications by region. The visualization allows for a clear comparison of loan application outcomes across different geographic regions. For example, the region with the highest approval rate is North America, with an approval rate of 48.32%, while customers from Asia had the highest rejection rate, at 32.12%.
 
+**4. What are the average loan sizes and interest rates for approved, rejected, and pending loan applications**
+
+This question was answered and visualized using two bar charts that display the average loan amount and average interest rates for each loan outcome (approved, rejected, and pending).The first bar chart illustrates the average loan amount corresponding to each loan outcome, while the second bar chart shows the average interest rate for each loan decision.
+
+**Approved Applications** had an average Loan Amount of **$10,951** and an average interest rate of **6.5%**
+
+**Pending Applications** had an average Loan Amount of **$10,987** and an average interest rate of **9.2%**
+
+**Rejected Applications** had an average Loan Amount of **$11,286** and an average interest rate of **9.1%**
+
+
+
+
 
 
 
