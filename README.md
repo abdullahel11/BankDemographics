@@ -17,9 +17,9 @@ The dataset consists of various attributes for each customer, such as:
 
 The datasets used in this project contain synthetic customer banking data, which includes various customer attributes such as demographics, account activity, investments, and loan information.
 
-- **Initial Dataset (`Initial.csv`)**: This is the raw dataset that was imported from Excel. It contains the original customer data before any cleaning or processing.
+- **Initial Dataset (Final.csv)**: This is the raw dataset that was imported from Excel. It contains the original customer data before any cleaning or processing.
   
-- **Final Dataset (`Final.csv`)**: After performing data cleaning and transformation, this is the cleaned version of the dataset, ready for analysis.
+- **Final Dataset [Final.csv](./Final.csv)**: After performing data cleaning and transformation, this is the cleaned version of the dataset, ready for analysis.
 
 ## Data Cleaning
 
