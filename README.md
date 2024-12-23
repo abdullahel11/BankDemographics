@@ -136,7 +136,8 @@ This query produced the following results:
 - Total amount of funds in balance and investment accounts for each income group
 - Contribution of each income group to the total balance and investments 
 
-## Tableau Visualisation for Customer Demographics.![Image 22-12-2024 at 15 36](https://github.com/user-attachments/assets/e2fbd4d7-824b-48e6-8757-90398761a7a0)
+## Tableau Visualisation for Customer Demographics.
+![Image 22-12-2024 at 15 36](https://github.com/user-attachments/assets/e2fbd4d7-824b-48e6-8757-90398761a7a0)
 
 #### Business Questions Answered from this Analysis:
 
@@ -204,6 +205,17 @@ These query's  produced the following results:
 - The number of unemployed customers for each loan outcome (approved, rejected).
 - Average loan amount and interest rate for each loan decision (approved, rejected).
 - Rejection and approval rates for loan applications by region.
+
+## Tableau Visualisation for Loan Performance
+![Image 23-12-2024 at 13 08](https://github.com/user-attachments/assets/da201aa7-5086-44c9-9599-2da5a27f011d)
+
+#### Business Questions Answered from this Analysis:
+
+**3. What are the approval and rejection rates for loan applications across different continents?**
+
+This question was answered and visualized using a bar chart that shows the rejection and approval rates for loan applications by region. The visualization allows for a clear comparison of loan application outcomes across different geographic regions. For example, the region with the highest approval rate is North America, with an approval rate of 48.32%, while customers from Asia had the highest rejection rate, at 32.12%.
+
+
 
 
 
