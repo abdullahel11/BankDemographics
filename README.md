@@ -102,7 +102,7 @@ The database was structured into three main tables, each focusing on a specific 
 
 ### Section-specific analysis
 
-#### Customer Demographics 
+### Customer Demographics 
 This section focuses on segmenting customers based on the newly modified  income levels and analysing their account balances and investments. Customers were categorised into three income groups: Low Income, Middle Income, and High Income. The analysis highlights the distribution of customers across these groups, their average and total account balances, and their investment contributions.
 
 **SQL Query performed**:
@@ -136,7 +136,7 @@ This query produced the following results:
 - Total amount of funds in balance and investment accounts for each income group
 - Contribution of each income group to the total balance and investments 
 
-## Tableau Visualisation for Customer Demographics.
+### Tableau Visualisation for Customer Demographics.
 ![Image 22-12-2024 at 15 36](https://github.com/user-attachments/assets/e2fbd4d7-824b-48e6-8757-90398761a7a0)
 
 #### Business Questions Answered from this Analysis:
@@ -154,7 +154,7 @@ The bar chart highlights the average account balances and investment amounts for
 - **High Income earners** have the highest average account balance and investment amounts compared to the other groups.
 - Middle and Low Income groups contribute significantly less on average.
 
-## Additional Insights:
+### Additional Insights:
 
 **- High Income Group Impact:** Despite representing only **2.3%** of the total customers, high-income earners contribute a significant **13.77%** to the cumulative account balances across all customers. This means that their financial contribution is approximately **6x** their population proportion, highlighting their outsized impact on total account balances.
 
@@ -166,7 +166,7 @@ The bar chart highlights the average account balances and investment amounts for
 ![Image 23-12-2024 at 11 04](https://github.com/user-attachments/assets/444f701f-9fac-4fde-b5a8-d9b0950fc3f4)
 
 
-#### Loan Performance
+### Loan Performance
 This section focuses on analysing loan performance, including the outcomes of loan applications , the average loan amount, and interest rates for each loan status. Additionally, the analysis breaks down loan approval and rejection rates by region, providing insights into regional disparities and if unemployment influence loan application decisions.
 
 **SQL Query's  performed**:
@@ -206,7 +206,7 @@ These query's  produced the following results:
 - Average loan amount and interest rate for each loan decision (approved, rejected).
 - Rejection and approval rates for loan applications by region.
 
-## Tableau Visualisation for Loan Performance
+### Tableau Visualisation for Loan Performance
 ![Image 23-12-2024 at 13 08](https://github.com/user-attachments/assets/da201aa7-5086-44c9-9599-2da5a27f011d)
 
 #### Business Questions Answered from this Analysis:
@@ -237,10 +237,10 @@ The analysis revealed the following insights:
 
 From these findings, it is evident that unemployment has a slight influence on loan approval, as a higher percentage of unemployed individuals have had their loan applications rejected. The rate of unemployment among approved applicants is relatively lower, while pending applications have a slightly lower unemployment rate compared to rejected ones.
 
-## Additional Insights:
+### Additional Insights:
 Despite the highest unemployment rate among rejected applicants (29%), the fact that over 70% of rejected applicants were employed indicates that unemployment alone is not a decisive factor in the rejection of loan applications.
 
-#### Risk Tolerance and Finanical Behaviour 
+### Risk Tolerance and Finanical Behaviour 
 
 This section delves into customers’ financial behaviours, focusing on their risk tolerance levels and how this influences their investment activities. Customers were segmented into different risk tolerance groups Low, Medium, and High Risk, allowing for a detailed analysis of how their risk preferences relate to their investment behaviours.Additionally,for high-net-worth individuals, account activity is further analysed to reveal trends in their financial behaviour. Lastly, a financial activity section provides a closer look at individual customer activity through bar charts.
 
@@ -293,7 +293,7 @@ The queries for this section produced the following results:
 - **Account Activity for High Net Worth Customers:** A breakdown of financial activity (e.g., deposits, withdrawals, transfers) specific to high-net-worth individuals.
 - **Individual Account Activity:** The ability to explore account activity at the individual customer level through an interactive visual.
 
-## Tableau Visualisation for Risk Tolerance and Financial Behaviour.
+### Tableau Visualisation for Risk Tolerance and Financial Behaviour.
 ![Image 23-12-2024 at 16 26](https://github.com/user-attachments/assets/8078dff2-1c50-41d4-bafe-f161be6781ff)
 
 #### Business Questions Answered from this Analysis:
@@ -310,7 +310,7 @@ The results aligned with expectations:
 
 This trend highlights a clear relationship between risk tolerance and investment behavior, with higher risk tolerance correlating to larger investment amounts.
 
-## Additional Insights:
+### Additional Insights:
 
 **- Potential Growth Opportunity for Low-Risk Customers:** 
 
