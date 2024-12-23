@@ -140,6 +140,31 @@ This query produced the following results:
 
 #### Business Questions Answered from this Analysis:
 
+**1. How is our customer base distributed across the newly defined income groups (Low, Middle, High Income)?**
+
+The visualisation clearly shows the distribution of customers across the newly defined income groups:
+- **High Income**: 23 customers
+- **Middle Income**: 113 customers
+- **Low Income**: 864 customers
+
+**2. What are the average account balances and investment contributions for each income group?**
+
+The bar chart highlights the average account balances and investment amounts for each group:
+- **High Income earners** have the highest average account balance and investment amounts compared to the other groups.
+- Middle and Low Income groups contribute significantly less on average.
+
+#### Additional Insights:
+
+**-High Income Group Impact:** Despite representing only 2.3% of the total customers, high-income earners contribute a significant 13.77% to the cumulative account balances across all customers. This means that their financial contribution is approximately 6x their population proportion, highlighting their outsized impact on total account balances.
+![Image 23-12-2024 at 11 03](https://github.com/user-attachments/assets/57694236-c3cf-418e-9c75-3baed2aa5ad2)
+
+
+**-Low Income Group Contribution:** Conversely, low-income earners account for 86.4% of the total customers but contribute only 46.4% to the cumulative account balances. This shows that their financial contribution is approximately 0.54x their population proportion, reflecting the relatively lower financial capacity of this group compared to their size.
+![Image 23-12-2024 at 11 04](https://github.com/user-attachments/assets/444f701f-9fac-4fde-b5a8-d9b0950fc3f4)
+
+
+
+
 
 
 
