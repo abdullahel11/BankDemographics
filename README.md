@@ -198,6 +198,12 @@ ORDER BY rejected_rate DESC;
 ```
 **Results and Insights:**
 
+These query's  produced the following results:
+
+- Count of loan application outcomes (approved, rejected) for each loan status.
+- The number of unemployed customers for each loan outcome (approved, rejected).
+- Average loan amount and interest rate for each loan decision (approved, rejected).
+- Rejection and approval rates for loan applications by region.
 
 
 
